@@ -2,15 +2,18 @@
 	"name": "liou",
 	"belt": "black",
 	"rate": 20,
+	"gender":1,
 	"thumb": "content/img/cover.jpg"
 }, {
 	"name": "poul",
 	"belt": "red",
 	"rate": 50,
+	"gender":2,
 	"thumb": "content/img/cover1.jpg"
 }, {
 	"name": "youi",
 	"belt": "orange",
 	"rate": 45,
+	"gender":3,
 	"thumb": "content/img/cover2.jpg"
 }]
