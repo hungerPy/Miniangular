@@ -1,7 +1,6 @@
 var myApp=angular.module("myapplication",["ngRoute"])
 
 myApp.config(["$routeProvider",function($routeProvider){
-
 $routeProvider.when("/home",{
   templateUrl:"views/home.html"
 })
@@ -13,6 +12,19 @@ $routeProvider.when("/home",{
 });
 
 }]);
+
+myApp.filter('gender',function(){
+  return function(gender){
+    switch(gender){
+      case 1:
+              return "Male";
+      case 2:
+              return "Female";
+      case 3:
+              return "not disclosed";
+    }
+  }
+})
 
 myApp.run(function(){
 
